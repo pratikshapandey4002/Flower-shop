@@ -1,0 +1,490 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+    height: 70px;
+    box-shadow: 0px 5px rgb(235, 231, 231);
+    position: fixed;
+    z-index: 1;
+   
+
+}
+.logo{
+    align-self: center;
+    margin-left: 50px;
+
+}
+
+.nav-bar{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    min-width:600px;
+    
+  
+}
+.icons{
+    display:flex;
+    justify-content: space-evenly;
+    min-width: 300px;
+    align-self: center;
+}
+.nav-items{
+    text-decoration: none;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    max-width: 700px;
+
+
+}
+.icons span:hover{
+    color:pink;
+}
+.nav-bar a:hover{
+    color:pink;
+}
+.logo span{
+    color: pink;
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+
+}
+.search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding:10px;
+    background-color: #f5f5f6;
+    color:#282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;;
+
+
+
+}
+.search_input{
+    color:#696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height:40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+.banner-image{
+    width:100%;
+    height:750px;
+    padding-top: 75px;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top:300px;
+    left:150px;
+    line-height:1.5;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+   
+}
+.banner-text p{
+    line-height: normal;
+    color: rgb(71, 71, 71);
+}
+.banner-text h2{
+    color: rgb(128, 66, 76);
+
+
+}
+
+.shop-button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(45, 43, 43);
+    color: rgb(205, 194, 194);
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.shop-button:hover{
+    color: pink;
+}
+.about{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.about h2{
+    background-color: #fcf6f7;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.about span{
+    color: pink;
+}
+.about-section{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about-image{
+    position: relative;
+    padding: 100px 150px;
+}
+.anout-text{
+    font-size: 20px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 500px;
+    margin-left: 50px;
+    max-height:500px;
+}
+.image-text{
+   
+    position: absolute;
+    top: 50%;
+    width:400px;
+    height: 60px;
+    text-align: center;
+    font-weight:1000;
+}
+.image-text h2 {
+    background-color: #f1f1f4;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+} 
+ .facilities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+    height: 220px;
+    width:100%;
+    padding-top: 20px;
+    padding-left: 4%;
+    flex-wrap: wrap;
+    row-gap: 10px;
+ }
+ .shipping{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:white;
+    width: 350px;
+ }
+ .shipping h3 span{
+    font-weight: bolder;
+
+ }
+ .latest-heading{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #fcf6f7  ;
+ }
+ .latest-heading span{
+    color:pink; ;
+
+ }
+ .card{
+    padding: 10px;
+    width:80%;
+    background-color:white;
+    border-radius: 10px;
+    border:2px solid white;
+    box-shadow: 3px 3px 10px black;
+    
+ }
+ 
+ .image img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+ }
+ .title{
+    padding: 10px;
+    text-align: center;
+    font-size: 120%;
+ }
+ .text{
+    text-align: center;
+}
+.text button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.text button:hover{
+    color: white;
+    background-color:pink;
+    
+}
+.latest-image{
+    margin-top: 20px;
+    padding-left: 11%;
+    padding-right: 6%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit , minmax(300px, 1fr));
+    gap:30px;
+
+}
+.contact_container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 3px 3px 10px black;
+    width: 600px;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+.name{
+    height: 40px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.message{
+    height: 150px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.Contact_Us .shop-button{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width:250px;
+}
+.contact-image img{
+    height: 500px ;
+    margin-top: 100px;
+    
+}
+.Contact_Us{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-left: 6%;
+}
+.footer_container{
+    margin-top: 40px;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display:flex;
+    flex-direction: column;
+
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer_column a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+
+}
+.copyright{
+    color:#94969f;
+    text-align: end;
+    padding: 15px;
+}
+.footer{
+    margin-top: 100px;
+}
+.customer-review{
+    width: 350px;
+    box-shadow: 2px 2px 10px black;
+    padding: 25px;
+    margin: 20px;
+}
+.customer-review span{
+    color: pink;
+}
+.customer-review p{
+    color: #94969f;
+}
+.customer-review img{
+    border-radius: 50%;
+    padding: 10px;
+}
+.customer-review h4{
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.review_image{
+    display: flex;
+}
+.customer-review h4 span{
+    color:#696b79;
+}
+.customer-container{
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.customer{
+    padding: 10px;
+}
+.display{
+    display: none;
+}
+
+/* General responsiveness for smaller screens */
+@media (max-width: 1024px) {
+    .nav-bar {
+        min-width: 400px;
+        font-size: 0.9em;
+    }
+    .search_bar, .icons {
+        min-width: 200px;
+    }
+    .banner-text {
+        top: 200px;
+        left: 20px;
+        font-size: 1.2em;
+    }
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-image, .anout-text {
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .menu-icon{
+        text-align: center;
+        align-self: center;
+    }
+    .search_bar {
+        display: none;
+    }
+    .nav-bar {
+        display: flex;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-bar {
+        display: none;
+        flex-direction: column;
+        min-width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+    .banner-image {
+        width:100%;
+        height:350px;
+    }
+    .banner-text {
+        font-size: 1em;
+        top: 100px;
+    }
+    .shop-button{
+    font-weight: bolder;
+    font-size: 1rem;
+    height:2rem;
+    width:9rem;
+    font-weight: bolder;
+    }
+    .icons{
+        display: none;
+    }
+    .anout-text p{
+        font-size: 1rem;
+    }
+    .latest-image {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .facilities{
+        z-index: 0;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap:nowrap;
+        flex-shrink: 1;
+        width:100%;
+        padding: 10px;
+        background-color: rgb(243, 240, 240) ;
+    }
+    .shipping{
+        width: 80%;
+    }
+    .latest-heading{
+        margin-top: 150px;
+    }
+    .Contact_Us{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_container{
+        width: 350px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
